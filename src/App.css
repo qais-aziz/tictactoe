@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+    background-color: rgb(24, 23, 23);
+}
+div{
+    display: block;
+    padding: 5px;
+}
+.game-area{
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    border: thin;
+    border-style: dashed;
+    border-color: aqua;
+    border-radius: 2%;
+}
+.pokemon{
+    border-radius: 10%;
+    border: thin;
+    border-style: dashed;
+    border-color: aqua;
+    padding: 50px;
+    font-size: x-large;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    color: white;
+}
+.search{
+    width: 1200px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: rgb(44, 42, 42);
+}
+.btn{
+    height: 30px;
+    width: 60px;
+    background-color: aqua;
+}
+th{
+    padding: 15px;
+    font-size: large;
+    border-bottom: thin dashed;
+    border-color: cyan;
+    
+}
+td{
+    padding: 4pt;
+    border-bottom: thin dashed;
+    border-color: cyan;
+}
+tr{
+    padding: 15px;
+    text-align: center;
+} 
+ .btn{
+    background-color: rgb(12, 12, 12);
+    color: antiquewhite;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: xx-large;
+    color: rgb(135, 177, 177);
+    transition: all 0.5s;
+}
+.btn:hover{
+    transform: rotate(-10deg);
+}
+
+body{
+    background-color: rgb(88, 78, 88);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    gap: 5px;
+    justify-content: center;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(223, 213, 213);
+}
+
+p{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(211, 197, 197);
+}
+.restrt{
+    font-size: large;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(35, 41, 41);
+    color: rgb(218, 235, 235);
+    transition: background-color 0.2s ease-in;
+}
+.restrt:hover{
+    background-color: rgb(65, 68, 68);
+}
+
+.disabled{
+    cursor: context-menu;
+    pointer-events: none;
+} 
