@@ -127,5 +127,5 @@ function ButtonGrid(props){
   }
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(<Game/>)
+  root.render(<Game />)
   export default App;
